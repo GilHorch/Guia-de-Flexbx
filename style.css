@@ -1,6 +1,7 @@
 .caixas {
     width: 20px;
+    color: blueviolet;
     background-color: blueviolet;
     display: flex;
-    
+
 }
