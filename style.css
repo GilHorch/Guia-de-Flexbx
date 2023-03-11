@@ -24,7 +24,16 @@ h1 {
 	border: 1px solid #ccc;
 }
 
+.block{
+	display: block;
+}
+
+.flex{
+	display: flex;
+
+}
 .flex-direction{
 	display: flex;
 	flex-direction: row;
+
 }
