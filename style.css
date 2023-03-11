@@ -34,6 +34,6 @@ h1 {
 }
 .flex-direction{
 	display: flex;
-	flex-direction: row;
+	flex-direction: row| row-reverse| column| column-reverse;
 
 }
