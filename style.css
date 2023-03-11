@@ -37,3 +37,8 @@ h1 {
 	flex-direction: row| row-reverse| column| column-reverse;
 
 }
+.flex-wrap{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
