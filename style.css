@@ -53,11 +53,13 @@ h1 {
 .column {
 	display: flex;
 	flex-direction: column;
+	width: 20px;
 }
 
 .column-reverse {
 	display: flex;
 	flex-direction: column-reverse;
+	width: 20px;
 }
 
 .flex-wrap {
