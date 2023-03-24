@@ -5,12 +5,14 @@ body {
 	font-family: monospace;
 	color: #333;
 }
+
 h1 {
 	text-align: center;
 	margin: 20px 0 0 0;
 	font-size: 1.25em;
 	font-weight: normal;
 }
+
 .item {
 	margin: 5px;
 	background: tomato;
@@ -24,20 +26,37 @@ h1 {
 	border: 1px solid #ccc;
 }
 
-.block{
+.block {
 	display: block;
 }
 
-.flex{
+.flex {
 	display: flex;
 
 }
-.flex-direction{
+
+
+.row {
 	display: flex;
 	flex-direction: row;
-
 }
-.flex-wrap{
+
+.row-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.colum {
+	display: flex;
+	flex-direction: column;
+}
+
+.colum-reverse {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.flex-wrap {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
