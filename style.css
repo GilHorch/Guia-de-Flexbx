@@ -44,23 +44,25 @@ h1 {
 .row {
 	display: flex;
 	flex-direction: row;
+	width: 50px;
 }
 
 .row-reverse {
 	display: flex;
 	flex-direction: row-reverse;
+	width: 50px;
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
-	width: 20px;
+	width: 50px;
 }
 
 .column-reverse {
 	display: flex;
 	flex-direction: column-reverse;
-	width: 20px;
+	width: 50px;
 }
 
 .flex-wrap {
