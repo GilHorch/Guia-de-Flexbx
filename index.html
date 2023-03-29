@@ -31,6 +31,7 @@
     </section>
 
     <h1>flex-direction</h1>
+
     <h2>flex-direction: row| row-reverse| column| column-reverse;</h2>
 
     <div class="container flex-direction">
@@ -66,82 +67,62 @@
     <h2>flex-wrap: nowrap | wrap | wrap-reverse;</h2>
 
     <div class="container flex-wrap">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-
+        <div class="nowrap">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </div>
     </div>
 
+    <h1>flex-flow</h1>
     <h2>flex-flow: row nowrap | row wrap | column nowrap | column wrap;</h2>
-    <<<<<<< HEAD <div class=" container rownowrap">
-        <div class="item">1</div>
-        <div class="item">2</div>
-        <div class="item">3</div>
-        <div class="item">4</div>
-        </div>
 
-        <div class="container rowwrap">
+    <div class="container flex-flow">
+        <div class=" container rownowrap">
             <div class="item">1</div>
             <div class="item">2</div>
             <div class="item">3</div>
             <div class="item">4</div>
         </div>
 
-        <div class="columnnowrap">
-            <div class="item">1</div>
-            <div class="item">1</div>
-            <div class="item">1</div>
-            <div class="item">1</div>
-        </div>
+    </div>
+    <h1>justify-content</h1>
+    <h2>justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;</h2>
 
-        <div class="columnwrap">
-            <div class="item">1</div>
-            <div class="item">1</div>
-            <div class="item">1</div>
-            <div class="item">1</div>
-        </div>
-
-
-
-
-
-
-
-        =======
-
-        <div class="container flex-flow">
+    <div class="container justify-content">
+        <div class="container flex-start">
             <div class="item">1</div>
             <div class="item">2</div>
             <div class="item">3</div>
             <div class="item">4</div>
         </div>
-        >>>>>>> bee6043093e3735232333cc311fcc7cde36561a6
-        <h2>justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;</h2>
-        <div class="container justify-content">
+    </div>
+
+    <h1>align-items</h1>
+    <h2>align-items: stretch | flex-start | flex-end | center | baseline;</h2>
+
+    <div class="container align-items">
+        <div class="container stretch">
             <div class="item">1</div>
             <div class="item">2</div>
             <div class="item">3</div>
             <div class="item">4</div>
         </div>
+    </div>
 
-        <h2>align-items: stretch | flex-start | flex-end | center | baseline;</h2>
-        <div class="container align-items">
+    <h1>align-content</h1>
+    <h2>align-content: flex-start | flex-end | center | space-between | space-around | stretch;</h2>
+
+    <div class="container align-content">
+        <div class="flex-start">
             <div class="item">1</div>
             <div class="item">2</div>
             <div class="item">3</div>
             <div class="item">4</div>
         </div>
+    </div>
 
-        <h2>align-content: flex-start | flex-end | center | space-between | space-around | stretch;</h2>
-        <div class="container align-content">
-            <div class="item">1</div>
-            <div class="item">2</div>
-            <div class="item">3</div>
-            <div class="item">4</div>
-
-
-        </div>
 </body>
 
 </html>

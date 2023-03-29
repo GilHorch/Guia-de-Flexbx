@@ -45,30 +45,75 @@ h1 {
 .row {
 	display: flex;
 	flex-direction: row;
-	
 }
 
 .row-reverse {
 	display: flex;
 	flex-direction: row-reverse;
-	
+
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
-	
+
 }
 
 .column-reverse {
 	display: flex;
 	flex-direction: column-reverse;
-	
+
 }
 
 .flex-wrap {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 }
-.
+
+.nowrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-flow {
+	display: flex;
+	flex-direction: column;
+}
+
+.rownowrap {
+	display: flex;
+	flex-flow: nowrap;
+
+}
+.justify-content{
+display: flex;
+flex-direction: row;
+
+}
+.flex-start{
+display: flex;
+flex-direction:row;
+}
+
+.align-items{
+display: flex;
+flex-direction:column ;
+}
+.stretch{
+display: flex;
+flex-direction: row;
+align-items: stretch;
+
+}
+.align-content{
+display: flex;
+flex-direction: column;
+
+}
+.flex-start{
+display: flex;
+flex-direction: row;
+align-content: flex-start;
+
+}
